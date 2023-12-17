@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
+    <style>
+        body {
+        margin:0px 25px;
+        padding:0px;
+        text-align:center;
+        }
+
+        .page {
+        margin-left:auto;
+        margin-right:auto;
+        width:800px;
+        text-align:left;
+        }
+
+        nav {
+        width: 100%;
+        height: 100px;
+        text-align: center;
+        font-weight: bold;
+        cursor: pointer;
+        }
+
+        nav ul {
+        display: flex;
+        }
+
+        nav li {
+        list-style: none;
+        font-size: 20px;
+        margin-left:auto;
+        margin-right:auto;
+        }
+
+        a {
+        text-decoration: none;
+        display: block;
+        font-size: 30px;
+        }
+
+        a:hover {
+        color: lightcoral
+        }
+
+       #rireki {
+        font-size: 50px;
+        font-weight: bold;
+        width: 160px;
+        height: 70px;
+        padding-left: 10px;
+        margin-top: 100px;
+       }
+
+        h1{
+        font-size: 50px;
+        font-weight: bold;
+        }
+
+       img {
+        border: solid 3px gray;
+        width: 150px;
+        height: 200px;
+        float: left;
+       }
+
+       .name {
+        width: auto;
+        font-size: 30px;
+        line-height: 30px;
+        margin-left: 220px;
+       }
+
+       .introduce {
+        clear: left;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 50px;
+       }
+
+       table {
+        font-size: 20px;
+        border: solid 2px gray;
+        border-collapse: collapse;
+       }
+
+        table th, table td {
+        border: dashed 1px gray;
+        padding: 10px
+        
+       }
+
+       .bussinesContents {
+        font-size: 20px;
+        padding-top: 30px
+       }
+
+       #skills {
+        font-size: 20px;
+        padding-top: 30px
+       }
+
+       .appeal {
+        font-size: 20px;
+        padding-top: 30px
+       }
+
+       #contacts {
+        font-weight: bold;
+        font-size: 30px;
+        padding-top: 30px
+       }
+
+       .mail{
+        font-weight: bold;
+        font-size: 20px;
+        padding-bottom: 40px;
+        cursor: pointer;
+       }
+       
+
+    </style>
+    <!--title-->
+    <title>portfolio</title>
+</head>
+
+<body id="top">
+    <!--navi-->
+    <nav>
+    <ul>
+        <li><a href="#rireki">履歴書</a></li>
+        <li><a href="#keireki">経歴</a></li>
+        <li><a href="#skills">免許・資格</a></li>
+        <li><a href="#contacts">連絡先</a></li>
+    </ul>
+    </nav>
+    <div class="page">
+    
+    <!--introduce-->
+    <div class="about">
+        <h1 id="rireki">履歴書</h1>
+
+        <div>
+            <img src="portfolio.jpg.JPG">
+        </div>
+
+        <div>
+            <table class="name">
+            <tr><th>ふりがな</th>
+            <td>ささき こうだい</td></tr>
+            <th>氏名</th>
+            <td>佐々木 幸大</td>
+            <tr><th>生年月日</th>
+            <td>1996年3月5日</td>
+            <tr><th>出身地</th>
+            <td>宮城県仙台市出身</td></tr>
+            </table>
+        </div>
+
+        <div class="introduce">
+        <h2 id="keireki">経歴</h2>
+        <table>
+            <tr><th>2014年3月</th>
+            <td>東北高等学校 創進コース卒業</td></tr>
+            <tr><th>2014年4月</th>
+            <td>東北学院大学 法律学部法律学科に入学</td></tr>
+            <tr><th>2018年9月</th>
+            <td>東北学院大学 法律学部法律学科を卒業</td></tr>
+            <tr><th>2019年4月</th>
+            <td>株式会社GlobalAssist（現 株式会社ベストコ）に入社</td></tr>
+        </table>
+        </div>
+    </div>
+
+        <div class="bussinesContents">
+        <h2>業務内容</h2>
+        <p class="schoolTask">【学習塾運営業務】</p>
+            <ul>
+                <li>授業：小学3年生から高校3年まで指導を行い、個別に面談をします。</li>
+                <li>授業内容：主要5科目と小学生向けプログラミングを指導しております。</li>
+                <li>授業時間割作成：60名以上の時間割をexcelを使用し作成します。</li>
+                <li>アルバイト採用・教育：問い合わせがあった方に対してアポイントを取り、研修も行います。</li>
+                <li>シフト作成：アルバイトスタッフの毎月のシフトをexcelを使用し作成します。</li>
+                <li>販促活動：ポスティングや学校を訪問してのチラシ配布、販促架電を行います。</li>
+                <li>新規顧客面談対応：お問い合わせがあったご家庭へ、個別の説明会を実施します。</li>
+                <li>保護者面談：年3回は保護者の方と面談のお時間をいただき、学習についてご相談します。</li>
+                <li>売り上げ目標管理：社内ツールを使用し、売り上げの目標値を管理し運営を行います。</li>
+            </ul>
+        </div>
+
+        <div id="skills">
+            <h2>免許・資格</h2>
+            <table>
+                <tr><th>2018年12月</th>
+                <td>普通自動車第一種免許 取得</td></tr>
+            </table>
+        </div>
+
+        <div class="appeal">
+            <h2>自己PR</h2>
+            <p>
+            <br>私は、3年間教室長として勤務してきました。</br>
+            <br>教室長初年度は新型コロナウイルスの影響もあり、思うような成果を上げることができませんでした。</br>
+            <br>ですが、ICTを活用した指導方針への転換を誰よりも前向きに捉え、データを活用しきることで、自教室の業績を伸ばすことができました。</br>
+            <br>2023年度は過去最高在籍生徒数を更新し、昨年度対比でも130%の成長率を達成することができました。</br>
+            <br>成果を出すためには、傾聴やコミュニケーション能力だけでなく顧客が求める数値を分析し、把握する必要があると考えております。</br>
+            <br>これまで培った傾聴力や変化を受け入れる考え方で社会に貢献できる人材になりたいと考えております。</br>
+            <br>プログラミングは小学生へ指導するため、JavaScript、html、CSSを独学で勉強中です。</br>
+        </p>
+        </div>
+
+    </div>
+    
+    <!--address-->
+    <div id="contacts">
+        <h2>連絡先</h2>
+        <div class="mail">
+            <a href="mailto:masked.nt-yuki@outlook.jp">Email</a>
+        </div>
+    </div>
+
+    <div>
+        <a href="#top">【TOP】</a>
+    </div>
+</div>
+</body>
+</html>
